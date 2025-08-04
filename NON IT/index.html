@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aslam Sayyed - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Portfolio</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#education" class="nav-link">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item close-nav-item">
+                    <button class="close-sidebar" aria-label="Close Menu" style="display:none;">
+                        <i class="fas fa-times"></i>
+                        <span>Close</span>
+                    </button>
+                </li>
+            </ul>
+            <div class="nav-actions">
+                <div class="theme-toggle">
+                    <button id="themeToggle" class="theme-btn">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </div>
+                <div class="mobile-menu-toggle">
+                    <button class="menu-btn" aria-label="Toggle Menu">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+        <div class="home-container">
+            <div class="home-content">
+                <div class="home-left">
+                    <div class="home-text-content">
+                        <!-- <div class="greeting">
+                            
+                        </div> -->
+                        <span class="greeting-text">Hello, I'm</span>
+                        <h1 class="home-title">Aslam Sayyed</h1>
+                        <div class="role-container">
+                            <span class="role-text">Driven by </span>
+                            <span class="role-highlight">Technology,</span>
+                            <span class="role-text">Focused on</span>
+                            <span class="role-highlight">Results </span>
+                        </div>
+                        <p class="home-description">
+                            A self-motivated, organized, and goal-oriented individual with strong time management and follow-up skills. I bring hands-on experience with Microsoft Office tools, data handling, and CRM systems, along with a growing expertise in AI automation, prompt engineering, and workflow tools like n8n.
+                        </p>
+                        <div class="home-stats">
+                            <div class="stat-item">
+                                <span class="stat-number">1+</span>
+                                <span class="stat-label">Years Experience</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">20+</span>
+                                <span class="stat-label">Projects Completed</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">100%</span>
+                                <span class="stat-label">Client Satisfaction</span>
+                            </div>
+                        </div>
+                        <div class="home-actions">
+                            <a href="#" class="home-btn primary" onclick="downloadResume()">
+                                <i class="fas fa-download"></i>
+                                Download CV
+                            </a>
+                            <a href="#contact" class="home-btn secondary">
+                                <i class="fas fa-envelope"></i>
+                                Get In Touch
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="home-right">
+                    <div class="profile-container">
+                        <div class="profile-background"></div>
+                        <img src="../Aslam1.jpg" alt="Your Name" class="profile-img" />
+                    </div>
+                </div>
+            </div>
+            <div class="home-socials">
+                <a href="https://www.linkedin.com/in/aslam-sayyed-mernstack" target="_blank" class="home-social"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/AslamSayyed-Mern" target="_blank" class="home-social"><i class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/syed.aslam01/?igsh=OGlqeXA3amgwd3c0#" target="_blank" class="home-social"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/+919542019584?text=Hello Aslam, I'm interested in your services." target="_blank" class="home-social"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image" data-aos="fade-right">
+                    <div class="image-container">
+                        <img src="../IMG_20250709_191427_161.webp" alt="About Me" class="about-img">
+                        <div class="image-overlay">
+                            <div class="experience-badge">
+                                <span class="years">1+</span>
+                                <span class="text">Years</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-header" data-aos="fade-up">
+                    <h2 class="section-title">About Me</h2>
+                    <!-- <p class="section-subtitle">Get to know me better</p> -->
+                </div>
+                <div class="about-text" data-aos="fade-left">
+                    <div class="about-intro">
+                        <h3 class="about-name">Aslam Sayyed</h3>
+                        <p class="about-role">
+                            Smart Tools. Sharp Thinking. Solid Results</p>
+                    </div>
+                    <div class="about-description">
+                        <p>I am a dedicated professional with a passion for excellence and innovation. Skilled in Microsoft Office tools (Excel, Word, PowerPoint) and Google Workspace for daily business operations, with good knowledge of MySQL Database and CRM Tools.</p>
+                        <p>My approach combines strategic thinking with practical execution, ensuring that every project I undertake delivers measurable results. I thrive in dynamic environments and enjoy collaborating with diverse teams to achieve common goals.</p>
+                    </div>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-users"></i>
+                            <span>Team Collaboration</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Data Analysis</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-comments"></i>
+                            <span>Communication</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-lightbulb"></i>
+                            <span>Problem Solving</span>
+                        </div>
+                    </div>
+                    <div class="about-actions">
+                        <button class="download-btn primary" onclick="downloadResume()">
+                            <i class="fas fa-download"></i>
+                            Download CV 
+                        </button>
+                        <a href="#contact" class="contact-btn secondary">
+                            <i class="fas fa-envelope"></i>
+                            Get In Touch
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Education</h2>
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Bachelor's Degree</h3>
+                        <p class="institution">Osmania University</p>
+                        <p class="year">2021 - 2024</p>
+                        <p class="description"> Hyderabad-Telangana | Bachelor of (Computer Science) | Aggregate: 9.25</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Intermediate</h3>
+                        <p class="institution">Telangana State Board of Intermediate Education</p>
+                        <p class="year">2019 - 2021</p>
+                        <p class="description">Intermediate | MPC | NSR Jr College, Medchal-Telangana | Percentage: 87%</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>School of Secondary Education</h3>
+                        <p class="institution">SSC</p>
+                        <p class="year">2014 - 2019</p>
+                        <p class="description"> ZPHS Poodur-Medchal | Aggregate: 9.2</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category" data-aos="fade-up">
+                    <h3>Technical Skills</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fas fa-file-excel skill-icon"></i>
+                                <span class="skill-name">Microsoft Excel</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fas fa-file-word skill-icon"></i>
+                                <span class="skill-name">Microsoft Word</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fas fa-file-powerpoint skill-icon"></i>
+                                <span class="skill-name">Microsoft PowerPoint</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fab fa-google skill-icon"></i>
+                                <span class="skill-name">Google Workspace</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fas fa-database skill-icon"></i>
+                                <span class="skill-name">MySQL Database</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fas fa-users-cog skill-icon"></i>
+                                <span class="skill-name">CRM Tools</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fas fa-globe skill-icon"></i>
+                                <span class="skill-name">Internet Browsing & Research</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fas fa-tools skill-icon"></i>
+                                <span class="skill-name">Basic Troubleshooting</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fas fa-code"></i>
+                                <span class="skill-name">Technical Skills (HTML, CSS, JavaScript)</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fa-solid fa-robot"></i>
+                                <span class="skill-name">AI Tools (ChatGPT,Cursor, Gemini)</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fas fa-keyboard skill-icon"></i>
+                                <span class="skill-name">Data Entry & Typing (40+ WPM)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category" data-aos="fade-up">
+                    <h3>Soft Skills</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fas fa-bullseye skill-icon"></i>
+                                <span class="skill-name">Goal-Oriented</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fas fa-clock skill-icon"></i>
+                                <span class="skill-name">Time Management</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fas fa-comments skill-icon"></i>
+                                <span class="skill-name">Communication (English, Hindi, Telugu)</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fas fa-users skill-icon"></i>
+                                <span class="skill-name">Team Collaboration</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fas fa-lightbulb skill-icon"></i>
+                                <span class="skill-name">Problem Solving</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fas fa-graduation-cap skill-icon"></i>
+                                <span class="skill-name">Quick Learner</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fas fa-sync-alt skill-icon"></i>
+                                <span class="skill-name">Adaptability</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fas fa-tasks skill-icon"></i>
+                                <span class="skill-name">Multitasking</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fas fa-eye skill-icon"></i>
+                                <span class="skill-name">Attention to Detail</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fas fa-user-check skill-icon"></i>
+                                <span class="skill-name">Professionalism</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fas fa-clock skill-icon"></i>
+                                <span class="skill-name">Punctuality</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card" data-aos="fade-up">
+                    <div class="project-image">
+                        <img src="../Govt_job_notification_workflow.png" alt="Project 1">
+                    </div>
+                    <div class="project-content">
+                        <h3>Automated Govt Job Notification Workflow</h3>
+                        <p>Built a no-code automation in n8n to fetch, format, and email top government job listings via RSS, reducing manual effort by 90%.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">AI Automaton</span>
+                            <span class="tech-tag">n8n</span>
+                            <span class="tech-tag">Gmail</span>
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/AslamSayyed-Mern" class="project-link"><i class="fab fa-github"></i> View</a>
+                            <a href="https://www.linkedin.com/posts/aslam-sayyed-mernstack_n8n-automation-lowcode-activity-7325413342582390784-jwWj?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFOvLFcBOljCEPYwc3So8cpvRVbgdqN-d-Q" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-aos="fade-up">
+                    <div class="project-image">
+                        <img src="../Ai_agent.png" alt="Project 2">
+                    </div>
+                    <div class="project-content">
+                        <h3>AI Agent</h3>
+                        <p>Built a custom AI agent with a Custom UI powered by locally hosted Ollama using the DeepSeek R1 model. The agent interacts via API and delivers real-time responses from a local LLM setup.
+
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">API</span>
+                            <span class="tech-tag">DeepSeek R1</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">AI agent</span>
+                            <span class="tech-tag">LLM</span>
+                            <span class="tech-tag">Ollama</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/AslamSayyed-Mern" class="project-link"><i class="fab fa-github"></i> View</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-aos="fade-up">
+                    <div class="project-image">
+                        <img src="../OGWheaterApp.PNG" alt="Project 3">
+                    </div>
+                    <div class="project-content">
+                        <h3>Wheather App</h3>
+                        <p>Built a Wheather App With HTML, CSS, JavaScript , Which Fetches the Real Time Wheather Updates throgh OpenWheather API</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Bootstrap</span>
+                            <span class="tech-tag">API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/AslamSayyed-Mern/Weather-App/tree/main/Weather%20APP" class="project-link"><i class="fab fa-github"></i> View</a>
+                            <a href="https://aslamsayyed-mern.github.io/Weather-App/Weather%20APP/" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Contact Me</h2>
+            <div class="contact-content">
+                <div class="contact-grid" data-aos="fade-up">
+                    <div class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <h4>Email</h4>
+                        <p>sayedaslam4321@gmail.com</p>
+                        <a href="mailto:sayedaslam4321@gmail.com" target="_blank" class="contact-link">Send Email</a>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-phone"></i>
+                        <h4>Phone</h4>
+                        <p>+91 9542019584</p>
+                        <a href="tel:+919542019584" class="contact-link">Call Now</a>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fab fa-linkedin"></i>
+                        <h4>LinkedIn</h4>
+                        <p>linkedin.com/in/AslamSayyed</p>
+                        <a href="https://www.linkedin.com/in/aslam-sayyed-mernstack" target="_blank" class="contact-link">Connect</a>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fab fa-github"></i>
+                        <h4>GitHub</h4>
+                        <p>github.com/AslamSayyed</p>
+                        <a href="https://github.com/AslamSayyed-Mern" target="_blank" class="contact-link">View Profile</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Aslam Sayyed. All rights reserved.</p>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/aslam-sayyed-mernstack" target="_blank" class="footer-social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/AslamSayyed-Mern" target="_blank" class="footer-social-link"><i class="fab fa-github"></i></a>
+                    <a href="mailto:sayedaslam4321@gmail.com" target="_blank" class="footer-social-link"><i class="fas fa-envelope"></i></a>
+                    <a href="tel:+91 9542019584" target="_blank" class="footer-social-link"><i class="fas fa-phone"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
